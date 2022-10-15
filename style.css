@@ -3,7 +3,8 @@
 .second_content_container,
 .third_content_container,
 .fourth_content_container,
-.footer {
+.footer,
+.header_links {
   display: flex;
 }
 .logo {
