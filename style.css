@@ -10,3 +10,7 @@
 .logo {
   font-size: 18px;
 }
+ul {
+  display: flex;
+  flex-direction: row;
+}
