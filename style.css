@@ -16,5 +16,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-a {
+.header {
+  justify-content: space-between;
 }
