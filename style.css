@@ -34,3 +34,6 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+a:hover {
+  color: rgb(190, 72, 190);
+}
