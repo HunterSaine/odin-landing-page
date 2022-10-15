@@ -29,6 +29,9 @@ ul {
 .header {
   justify-content: space-between;
 }
+.footer {
+  justify-content: center;
+}
 a,
 a:visited {
   text-decoration: none;
