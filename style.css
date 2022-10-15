@@ -7,6 +7,7 @@ body {
   height: 100vh;
 }
 .header,
+.content_container,
 .top_content_container,
 .second_content_container,
 .third_content_container,
@@ -51,7 +52,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 200px;
-  gap: 10px;
+  gap: 25px;
 }
 .hero_text_container,
 .imageplaceholder {
@@ -72,4 +73,39 @@ a:hover {
 .hero_main_text {
   font-size: 38px;
   font-weight: bolder;
+}
+.second_content_container {
+  align-items: center;
+  flex-direction: column;
+}
+.images_container {
+  display: flex;
+  gap: 15px;
+}
+.image_with_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second_cont_img_placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: solid 2px blue;
+  border-radius: 30px;
+  border: solid 2px blue;
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+}
+.content_container {
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+}
+.content_heading {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px 0px;
 }
