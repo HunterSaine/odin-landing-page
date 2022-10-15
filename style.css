@@ -1,0 +1,8 @@
+.header,
+.top_content_container,
+.second_content_container,
+.third_content_container,
+.fourth_content_container,
+.footer {
+  display: flex;
+}
