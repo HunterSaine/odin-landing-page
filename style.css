@@ -41,3 +41,31 @@ a:visited {
 a:hover {
   color: rgb(190, 72, 190);
 }
+.top_content_container {
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  gap: 10px;
+}
+.hero_text_container,
+.imageplaceholder {
+  display: flex;
+  height: 150px;
+  width: 300px;
+}
+.hero_text_container {
+  flex-direction: column;
+  gap: 5px;
+}
+.imageplaceholder {
+  background-color: lightgray;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.hero_main_text {
+  font-size: 38px;
+  font-weight: bolder;
+}
